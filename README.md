@@ -31,6 +31,14 @@ doge is scam, because I am can breeder.
 ```
 bash$ cat ./test.txt | ./lambda-rust-grep -F lambda -v coin
 lambda
+lambda should be include
+lambda ghost coder
+lambda gazuaaaaa
+머선 127 lambda included
+
+
+bash$ cat ./test.txt | ./lambda-rust-grep -v coin          
+lambda
 rust
 restaurant
 diva
