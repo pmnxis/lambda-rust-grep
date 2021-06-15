@@ -29,7 +29,7 @@ doge is scam, because I am can breeder.
 
 ## Example Result
 ```
- master  cat ./test.txt | ./lambda-rust-grep -vF lambda -v coin
+bash$ cat ./test.txt | ./lambda-rust-grep -F lambda -v coin
 lambda
 rust
 restaurant
