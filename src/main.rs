@@ -12,7 +12,6 @@ fn heavy_stdinln_vec_str() -> Vec<String> {
     sliced
 }
 
-
 fn filtered_line(input: &String, inc: &Option<String>, exc: &Option<String>) -> String {
     let none_str = "".to_string();
     
