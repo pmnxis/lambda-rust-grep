@@ -25,7 +25,6 @@ fn filtered_line(input: &String, inc: &Option<String>, exc: &Option<String>) -> 
         None => None,
     };
 
-    // println!("{} => {} , !{}", input, is_included, is_excluded);
     match (is_included, should_exclude){
         (_, Some(true)) => none_str,
         (true, _) => format!("{}\n", input),
@@ -47,7 +46,6 @@ fn get_specific_parm(args: &Vec<String>, prefix: String) -> Option<String>
 
 fn main() {
     let args: Vec<String> = env::args().collect();
-    //println!("{}", stdinln_i32());
     let inc = get_specific_parm(&args, "-F".to_string());
     let exc = get_specific_parm(&args, "-v".to_string());
     heavy_stdinln_vec_str().iter().for_each(|x| print!("{}", filtered_line(x, &inc, &exc)));
